@@ -18,7 +18,7 @@ const handleQuery = async (query) => {
           }
         const response = await axios.post(`https://api.groq.com/openai/v1/chat/completions`, input, {  
             headers: {
-              "Authorization": `Bearer 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`,
+              "Authorization": `Bearer Enter your token`,
               "Content-Type": "application/json"
             }
           });
